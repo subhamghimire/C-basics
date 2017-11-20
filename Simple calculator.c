@@ -5,7 +5,7 @@
 int main(){
 
 int choose;
-int a,b,c;
+float a,b,c;
 char answer;
 do{
 
@@ -13,17 +13,17 @@ printf("Enter your choose 1:addition,2:substraction,3:multiplication,4:division\
 scanf(" %d",&choose);
 
 printf("Enter the values\n");
-scanf(" %d\n%d",&a,&b);
+scanf(" %f\n%f",&a,&b);
 
 
 if(choose==1){
-    printf("The addition is: %d\n",c=a+b);
+    printf("The addition is: %.2f\n",c=a+b);
 }else if(choose==2){
-printf("The substraction is: %d\n",c=a-b);
+printf("The substraction is: %.2f\n",c=a-b);
 }else if(choose==3){
-printf("The multiplication is: %d\n",c=a*b);
+printf("The multiplication is: %.2f\n",c=a*b);
 }else if(choose==4){
-printf("The division is: %d\n",c=a/b);
+printf("The division is: %.2f\n",c=a/b);
 }else{
 printf("no value");
 }
