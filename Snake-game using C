@@ -1,6 +1,7 @@
-#include <graphics.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include<graphics.h>
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
 #define T 2000
 int n=0,px,py;
 main()
