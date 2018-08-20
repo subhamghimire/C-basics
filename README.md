@@ -1,2 +1,2 @@
-# calculator-C-
+# C programs
 #snake game 
